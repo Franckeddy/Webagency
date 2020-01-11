@@ -1,0 +1,396 @@
+/*--responsive smartphones--*/
+@media screen and (max-width:767px)
+{
+	body
+	{
+		font-size: 0.9em;
+	}
+
+	h2
+	{
+		font-size: 1.8em;
+	}
+
+	h3
+	{
+		font-size: 1.5em;
+	}
+
+	.intro
+	{
+		width: 90%;
+		margin: 5%;
+	}
+
+	#services
+	{
+		margin: 10% 0 0 0;
+	}
+
+	nav
+	{
+		position: sticky;
+		height: 21%;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+
+	.mainmenu
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 2% 0% 10% 0%;
+		border-top: 1px solid #62a8d0;
+		border-bottom: 1px solid #62a8d0;
+		font-size: 0.8em;
+	}
+
+	.fa-chevron-left
+	{	
+		display: none;
+	}
+
+	.fa-chevron-right
+	{
+	display: none;
+	}
+
+	.mainmenu li
+	{
+		padding: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mainmenu a:hover
+	{
+		border: none;
+		color: #62a8d0;
+	}
+
+	.slidertext
+	{
+		font-size: 0.3em;
+		top: 45%;
+		left: 10%;
+		width: 70%;
+	}
+
+	.service_globale
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 0 5% 0;
+		width: auto;
+	}
+
+	.imagemac
+	{
+		margin: 2% 0 2% 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		width: 85%;
+	}
+
+	.imagemac img
+	{
+		width: 90%;
+		margin: auto;
+	}
+
+	.services_colonne
+	{
+		width: 98%;
+		margin: 0;
+	}
+
+	.services_blocs
+	{
+		width: 100%;
+	}
+
+	.contentrows
+	{
+		display: block;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-around;
+
+	}
+
+	.contentrows div
+	{
+		width: 50%;
+	}
+
+	.contentrows img
+	{
+		width: 130%;
+		margin: 0 auto auto 0;
+	}
+
+	figcaption
+	{
+		width: 100%;
+		bottom: 0;
+		font-size: 0.5em;
+	}
+
+	figcaption h4
+	{
+		font-size: 0.9em;
+		text-align: left;
+	}
+
+	figcaption p
+	{
+		font-size: 2.6em;
+		text-align: left;
+	}
+
+	#contact
+	{
+		margin: 5% 0% 0% 0%;
+	}
+
+	.formposition
+	{
+		width: 75%;
+		position: relative;
+		margin: 0 0 0 10%;
+		padding: 0 0 15px 0;
+	}
+
+	form
+	{
+		height: 100%;
+		width: 100%;
+		padding: 30px 40px 70px 30px;
+		font-size: 0.9em;
+	}
+
+	form a
+	{
+		margin: 5px 0 35px 0;
+	}	
+
+	.iframecontent
+	{
+		display: none;
+	}
+	
+	.projetsmenu
+    {
+	font-size: 0.8em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 5% 5% 0% 0%;
+	
+}
+}
+
+/*--responsive tablettes--*/
+@media screen and (min-width:768px) and (max-width:992px)
+{
+	
+	.fa-chevron-left
+	{	
+		position: absolute;
+		width: 5px;
+		height: 5px;
+		top: 60%;
+		left: 0;
+		font-size: 0.5em;
+	}
+
+	.fa-chevron-right
+	{
+		position: absolute;
+		width: 5px;
+		height: 5px;
+		top: 60%;
+		right: 0;
+		font-size: 0.5em;
+	}
+		
+	.slidertext
+	{
+		font-size: 0.9em;
+		top: 25%;
+		left: 10%;
+		width: 85%;
+	}
+
+	nav
+	{
+		height: 25%;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+
+	.mainmenu
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 2% 0 3% 0;
+		border-top: 1px solid #62a8d0;
+		border-bottom: 1px solid #62a8d0;
+	}
+
+	.mainmenu li
+	{
+		padding: 3%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mainmenu a:hover
+	{
+		border: none;
+		color: #62a8d0;
+	}
+
+	#slider
+	{
+		padding-top: 13%;
+	}
+
+	.slidertext
+	{
+		padding-top: 5%;
+	}
+
+	.slidertext a
+	{
+		margin: 0 0 0 0;
+	}
+
+	.intro
+	{
+		margin: 0 10% 0 10%;
+		text-align: center;
+	}
+
+	.service_globale
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 3% 3% 3% 10%;
+	}
+
+	.imagemac
+	{
+		margin: 0;
+	}
+
+	.imagemac img
+	{
+		width: 85%;
+	}
+
+	.services_blocs
+	{
+		width: 95%;
+		margin: 10px 0 0 0;
+	}
+
+	.services_colonne
+	{
+		margin: 0;
+	}
+
+	figcaption h4
+	{
+		font-size: 0.6em;
+		padding: 2% 0 0 2%;
+		text-align: left;
+	}
+
+	figcaption p
+	{
+		font-size: 0.4em;
+		padding: 0 0 0 2%;
+		text-align: left;
+	}
+
+	.contentrows
+	{
+		justify-content: space-around;
+	}
+
+}
+
+
+/*--responsive desktop--*/
+@media screen and (min-width:993px) and (max-width:1280px)
+{
+	
+	.slidertext
+	{
+		font-size: 0.8em;
+		top: 25%;
+		left: 10%;
+		width: 50%;
+	}
+
+	.intro
+	{
+		width: 65%;
+		margin: auto;
+	}
+
+	.service_globale
+	{
+		display: flex;
+		margin: 1%;
+		width: 100%;
+	}
+
+	.services_colonne
+	{
+		margin: 90px 0 5px 90px ;
+	}
+
+	.services_blocs
+	{
+		width: 85%;
+		margin: auto;
+		padding: 8px 0 0 0;
+	}
+
+	.imagemac
+	{
+		width: 50%;
+	}
+
+	.imagemac img
+	{
+		width: 100%;
+		margin: auto;
+	}
+
+	figcaption h4
+	{
+		font-size: 1em;
+		padding: 3% 0 0 3%;
+	}
+
+	figcaption p
+	{
+		font-size: 0.6em;
+		padding: 0 0 0 3%;
+	}
+
+	.fa-eye
+	{
+		border: 1px solid #fff;
+		border-radius: 50%;
+		padding: 4px;
+		background-color: #62a8d0;
+	}
+}
